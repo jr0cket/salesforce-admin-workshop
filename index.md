@@ -1,47 +1,31 @@
 ---
 layout: home
-title: Salesforce Developer Workshop
+title: Salesforce Admin Workshop
 ---
-In this tutorial, you use the Salesforce Platform to build a conference management application that allows conference 
-administrators to manage all the
-aspects of a conference: sessions, speakers, hotels, etc. You also create a simple consumer-facing application that allows conference attendees to view the conference schedule, and learn more about sessions and speakers.
 
-## What You Will Learn
+This exercise is designed to show you how to create a Salesforce App using only declarative tools. The goal is for you to become familiar with declarative app building on the Force.com platform and to give you a useable app that you can put to work today.
 
-- Create Custom Objects
-- Use declarative features of the platform to create an Application, create Tabs, and optimize Page Layouts
-- Create Apex Classes
-- Use SOQL and DML to query, create, update and delete data
-- Create Triggers
-- Create Visualforce Pages
-- Create Controller Extensions and Custom Controllers
-- Use JavaScript in Visualforce Pages
-- Authenticate using OAuth
-- Access Salesforce data from JavaScript using JavaScript Remoting
-- Create a Custom Application using the REST APIs
-- Create Unit Tests
-- Create Batch Processes
+## What you will Learn
+The example we will use for today’s lesson is a business case of managing Salesforce user requests and reporting back to management on our workload and deliverables. 
 
-## Prerequisites
+What we will be building is a Salesforce Admin App to track user requests, feature requests, log notes, and interact with the user via Chatter.  Because user requests can vary from new employees being on-boarded to existing users leaving the company, all of the requests need to be kept private. 
 
-- To complete this workshop, all you need is a modern browser and a connection to the Internet
-- No prior knowledge of Salesforce is required
-- A working knowledge of Object-Oriented Programming is assumed
+As Admins we would also like to have fields that are accessible for the Admin and not users for internal notes. Finally, because we want to show our progress towards delivering new features/functionality we will build a simple dashboard to show management our progress. 
 
+Salesforce's Service Cloud app has a standard object, Cases, that you could use to model Requests, but in this example we want to explore creating a custom object.
 
-## Browser Requirements
+## Audience
+This exercise is intended for Salesforce Admins new to the Force.com platform and for Salesforce Developers looking to get more experienced in declarative app building.
 
-The following browsers are supported when working with the Developer Console:
+## Version
+You should be able to successfully complete all procedures using the Spring ‘14 version of Salesforce.
 
-  - Most recent version of Google Chrome
-  - Most recent version of Mozilla Firefox
-  - Most recent version of Safari
-  - Internet Explorer 9 or higher
+## Can I use my tablet or phone?
+Most of the exercise can be completed using a tablet or phone, although screen size may be an issue with some steps, and a keyboard is convenient for Formulas.
 
 ## Issues
 
-- Please create an issue [here](https://github.com/ccoenraets/salesforce-developer-workshop/issues) if you run 
-into any problem or if you have a suggestion to improve this workshop.
+- Please create an issue [here](https://github.com/jr0cket/salesforce-admin-workshop/issues) if you run into any problem or if you have a suggestion to improve this workshop.
 - You can also use the Comments section at the bottom of each module to ask a question or report a problem.
 
 
