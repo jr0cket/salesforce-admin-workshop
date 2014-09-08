@@ -153,24 +153,23 @@ _This field will also have unique security around it in that only Admins can see
 2. Fill in the field details:
   - Field Label: `Resolution`
   - Enter the following values for the picklist (one per line)
+  -- Training Issue
+  -- Management Guidance
+  -- Process Improvement
+  -- Data Issue
+  -- System Bug
 
-     Training Issue <br/>
-     Management Guidance <br/>
-     Process Improvement <br/>
-     Data Issue <br/>
-     System Bug <br/>>
+1. Leave the Sort Values Alphabetically- Unchecked
+1. Leave the Use first value as default value - Unchecked
+1. # Visible Lines: 4
+1. Field Name: Resolution
+1. Help Text: What were the solutions to this feature request?
 
-  - Leave the Sort Values Alphabetically- Unchecked
-  - Leave the Use first value as default value - Unchecked
-  - # Visible Lines: 4
-  - Field Name: Resolution
-  - Help Text: What were the solutions to this feature request?
+1. Click **Next**.
 
-3. Click **Next**.
+1.  Leave every box unchecked in the Visible column for all profiles except the System Administrator, and click **Next**.
 
-4.  Leave every box unchecked in the Visible column for all profiles except the System Administrator, and click **Next**.
-
-5. Click Save & New to save the Resolution field and return to the first step of the wizard.
+1. Click Save & New to save the Resolution field and return to the first step of the wizard.
 
 ## Add a Date Field to the Object
 This field will help us track when the request was closed. It’s also important for us because we reference this field in the following formula field created in the next step.
