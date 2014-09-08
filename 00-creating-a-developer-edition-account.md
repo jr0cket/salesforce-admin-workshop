@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 1&#58; Creating a Developer Edition Account
+title: Module 0&#58; Creating a Developer Edition Account
 ---
 In this module, you create a Developer Edition Account that provides you with a full-featured but isolated Salesforce environment to perform the exercises in this workshop.
 

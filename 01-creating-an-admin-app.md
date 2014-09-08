@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 2&#58; Create an Admin App
+title: Module 1&#58; Create an Admin App
 ---
 
 You can create an app with just a few clicks. In this exercise we will create a custom object to house our Salesforce requests.
@@ -31,7 +31,7 @@ You can create an app with just a few clicks. In this exercise we will create a 
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="Creating-a-Developer-Edition-Account.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="Creating-the-Application.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="00-creating-a-developer-edition-account.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="02-tour-of-your-app.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
