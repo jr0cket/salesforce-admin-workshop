@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 11&#58; Bonus: Create a Field using Schema Builder
+title: Module 11&#58; Bonus - Create a Field using Schema Builder
 ---
 
 Schema Builder provides a dynamic environment to add new custom objects, custom fields, and relationships to your schema. This eliminates the need to click from page to page to find the details of a master-detail relationship or to add a new custom field to an object in your schema. 
