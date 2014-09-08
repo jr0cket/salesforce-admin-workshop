@@ -43,7 +43,7 @@ Go back to the request and populate the Closed Date field. Did the status change
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="04-adding-page-layouts.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="06-app-logic-with-clicks.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="05-adding-record-types.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="07-app-on-salesforce1-moble.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
