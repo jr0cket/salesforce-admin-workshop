@@ -59,10 +59,13 @@ Scroll down to the Page Layouts section of the Salesforce Request Object.
 5. Click  Save.
 
 6. Now add the following fields that are needed for a New User Request to the page Layout by dragging them _from_ the palette and arranging as needed.
+
     User First & Last Name		User Email
     Mirror User				#Days Open
     Closed Date				Request Status
     Request Category
+
+![](images/04-add-page-layout-to-object.png)
 
 7. Click Save.
 
