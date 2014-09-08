@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 0&#58; Get more Information from your Reports
+title: Module 9&#58; Get more Information from your Reports
 ---
 
 The report builder gives you a lot of ways to view your data.  Viewing data in groups usually helps make sense of what you’re looking at. In this case, grouping by Category, or Record Type can be helpful.
