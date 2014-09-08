@@ -21,13 +21,18 @@ This field will be used to capture the User _First_ & _Last Name_ so we know who
 2. Click `Salesforce Request`, scroll down to _Custom Fields and Relationships_, and click **New**.
 
 3. The wizard helps you quickly specify everything about a new field, including its name, labels to use for app pages, help information, and visibility and security settings. Create the First & Last Name field as follows:
-  a. For `Data Type`, select `Text`, and click **Next**.
-  b. Fill in the custom field details:
+
+4. For `Data Type`, select `Text`, and click **Next**.
+
+5. Fill in the custom field details:
   - Field Label: `User First & Last Name`
   - Length: 60
-  c. Leave the defaults for the remaining fields, and click **Next**.
-  d. Click **Next** again to accept the default field visibility and security settings.
-  e. Click **Save & New** to save the User First & Last Name field and return to the first step of the wizard.
+
+6. Leave the defaults for the remaining fields, and click **Next**.
+
+7. Click **Next** again to accept the default field visibility and security settings.
+
+8. Click **Save & New** to save the User First & Last Name field and return to the first step of the wizard.
 
 
 ## Add an Email Field to the Object
@@ -36,10 +41,14 @@ This field will be used to capture the new user’s email address so we can crea
 1. For `Data Type`, select `Email` and click **Next**.
 
 2. Fill in the field details:
-  a. Field Label: `User Email`
-  b. Leave the defaults for the remaining fields, and click **Next**.
-  c. Click **Next** again to accept the default field visibility and security settings.
-  d. Click **Save & New** to save the User Email field and return to the first step of the wizard.
+
+3. Field Label: `User Email`
+
+4. Leave the defaults for the remaining fields, and click **Next**.
+
+5. Click **Next** again to accept the default field visibility and security settings.
+
+6. Click **Save & New** to save the User Email field and return to the first step of the wizard.
 
 ## Add a Lookup Field to the Object
 This field will be used so that the person requesting the new user can tell us what their permissions should be like- i.e. mirror this person. This is much easier than listing all the permissions they should or should not have.
@@ -47,13 +56,16 @@ This field will be used so that the person requesting the new user can tell us w
 1. For `Data Type`, select `Lookup Relationship` and click **Next**.
 
 2. Select the `User Object` as the object the Salesforce Request will be related to.
+
 3. Fill in the field details:
-  a. Field Label: `Mirror User`
-  b. Description: `This is a lookup field to the User Object`
-  c. Help Text: `Choose the user that this new user’s permissions should mirror`
-  d. Leave the defaults for the remaining fields, and click **Next**.
-  e. Click **Next** again to accept the default field visibility and security settings.
-  f. Click **Save & New** to save the Mirror User field and return to the first step of the wizard.
+   - Field Label: `Mirror User`
+   - Description: `This is a lookup field to the User Object`
+   - Help Text: `Choose the user that this new user’s permissions should mirror`
+4. Leave the defaults for the remaining fields, and click **Next**.
+
+5. Click **Next** again to accept the default field visibility and security settings.
+
+6. Click **Save & New** to save the Mirror User field and return to the first step of the wizard.
 
 
 ## Add a Rich Text Field to the Object
@@ -64,14 +76,17 @@ Create the Request Description field as follows:
 1. For `Data Type`, select `Text Area (Rich)`, and click **Next**.
 
 2. Fill in the custom field details:
-  a. Field Label: `Request Description`
-  b. Length: 32,768
-  c. # Visible Lines: 25
-  d. Field Name: `Request_Description`
-  e. Help Text: `Please enter as much detail- including pictures- around this request so the admin clearly knows what you are requesting`
-  f. Click Next.
-  g. Click Next again to accept the default field visibility and security settings.
-  h. Click Save & New to save the Request Description field and return to the first step of the wizard.
+  - Field Label: `Request Description`
+  - Length: 32,768
+  - # Visible Lines: 25
+  - Field Name: `Request_Description`
+  - Help Text: `Please enter as much detail- including pictures- around this request so the admin clearly knows what you are requesting`
+
+3. Click Next.
+
+4. Click Next again to accept the default field visibility and security settings.
+
+5. Click Save & New to save the Request Description field and return to the first step of the wizard.
 
 ## Add a Category Picklist Field to the Object
 This field will help us categorize the request. It will also make it easier for us to report on what types of request we get the most.
@@ -81,8 +96,8 @@ Create the Request Category field as follows:
 1. For `Data Type`, select `Picklist`, and click **Next**.
 
 2. Fill in the custom field details:
-  a. Field Label: `Request Category`
-  b. Enter the following values for the picklist (one per line)
+  - Field Label: `Request Category`
+  - Enter the following values for the picklist (one per line)
      User Activation
      User Deactivation
      General Customization
@@ -92,8 +107,8 @@ Create the Request Category field as follows:
      Change User Privileges
      Other
 
-  c. Leave the `Sort Values Alphabetically` - Unchecked
-  d. Leave the `Use first value as default value` - Unchecked
+  - Leave the `Sort Values Alphabetically` - Unchecked
+  - Leave the `Use first value as default value` - Unchecked
 
 3. Help Text: `Please choose a category for your request`
 
@@ -113,8 +128,8 @@ _This field will have unique security around it in that only Admins can see it._
 1. For `Data Type`, select `Picklist`, and click **Next**.
 
 2. Fill in the custom field details:
-  a. Field Label: `Request Status`
-  b. Enter the following values for the picklist (one per line)
+  - Field Label: `Request Status`
+  - Enter the following values for the picklist (one per line)
      Open
      Working
      Closed
@@ -136,21 +151,24 @@ _This field will also have unique security around it in that only Admins can see
 
 1. For `Data Type`, select `Picklist (Multi-Select)` and click **Next**.
 2 . Fill in the field details:
-  a. Field Label: `Resolution`
-  b. Enter the following values for the picklist (one per line)
+  - Field Label: `Resolution`
+  - Enter the following values for the picklist (one per line)
      Training Issue
      Management Guidance
      Process Improvement
      Data Issue
      System Bug
-  c. Leave the Sort Values Alphabetically- Unchecked
-  d. Leave the Use first value as default value - Unchecked
-  e. # Visible Lines: 4
-  f. Field Name: Resolution
-  g. Help Text: What were the solutions to this feature request?
-  h. Click **Next**.
-  i. Leave every box unchecked in the Visible column for all profiles except the System Administrator, and click **Next**.
-  j. Click Save & New to save the Resolution field and return to the first step of the wizard.
+  - Leave the Sort Values Alphabetically- Unchecked
+  - Leave the Use first value as default value - Unchecked
+  - # Visible Lines: 4
+  - Field Name: Resolution
+  - Help Text: What were the solutions to this feature request?
+
+3. Click **Next**.
+
+4.  Leave every box unchecked in the Visible column for all profiles except the System Administrator, and click **Next**.
+
+5. Click Save & New to save the Resolution field and return to the first step of the wizard.
 
 ## Add a Date Field to the Object
 This field will help us track when the request was closed. It’s also important for us because we reference this field in the following formula field created in the next step.
@@ -158,12 +176,12 @@ This field will help us track when the request was closed. It’s also important
 1. For `Data Type`, select Date and click **Next**.
 
 2. Fill in the field details:
-  a. Field Label: `Closed Date`
-  b. Field Name: `Closed_Date`
-  c. Leave the defaults for the remaining fields, and click **Next**.
-  d. Click the **Read-Only** checkbox at the top of the column to make this field read only for all users.
-  e. Then **Uncheck** the box next to System Administrator, then click **Next**.
-  f. Click **Save & New** to save the Closed Date field and return to the first step of the wizard.
+  - Field Label: `Closed Date`
+  - Field Name: `Closed_Date`
+  - Leave the defaults for the remaining fields, and click **Next**.
+  - Click the **Read-Only** checkbox at the top of the column to make this field read only for all users.
+  - Then **Uncheck** the box next to System Administrator, then click **Next**.
+  - Click **Save & New** to save the Closed Date field and return to the first step of the wizard.
 
 
 ## Add a Formula Field to the Object
@@ -172,12 +190,13 @@ This field will automatically calculate the formula fields that derives its valu
 1. For `Data Type`, select Formula and click **Next**.
 
 2. Fill in the field details:
-a. Field Label: `# Days open`
-b. Choose `Number` as the Formula Return Type
-c. Set the Decimal places at 0
-d. Click **Next**
+  - Field Label: `# Days open`
+  - Choose `Number` as the Formula Return Type
+  - Set the Decimal places at 0
+  - Click **Next**
 
 3. In the Formula Editor type the following formula:
+
     IF(ISBLANK(Closed_Date__c), TODAY() - DATEVALUE(CreatedDate) , Closed_Date__c - DATEVALUE(CreatedDate) )
 
 4. Click the `Check Syntax` button to check for syntax errors. if you do find errors, fix them before proceeding.
