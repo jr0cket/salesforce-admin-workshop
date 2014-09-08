@@ -13,7 +13,7 @@ First we’ll turn our simple tabular report into a slightly fancier summary rep
 
 3. Find and drag the Request Category field to your report in the shaded area **Drop a field here to create a grouping**
 
-4. Click Run Report.
+4. Click **Run Report**.
 
 ![](images/09-summary-report.png)
 
