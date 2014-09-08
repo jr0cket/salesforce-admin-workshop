@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 3&#58; Adding Page Layouts
+title: Module 4&#58; Adding Page Layouts
 ---
 
 In the previous exercise you created fields to manage the data. Now we want to make sure that user has a great experience logging the Salesforce request by only serving up relevant fields. In order to accomplish this we will create two page layouts and two record types. This will meet our business requirement by allowing us to capture relevant information based on the request.
@@ -65,11 +65,9 @@ Scroll down to the Page Layouts section of the Salesforce Request Object.
     Closed Date				Request Status
     Request Category
 
-![](images/04-add-page-layout-to-object.png)
-
 7. Click Save.
 
-
+![](images/04-add-page-layout-to-object.png)
 
 
 <div class="row" style="margin-top:40px;">

@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 3&#58; Adding Record Types 
+title: Module 5&#58; Adding Record Types 
 ---
 
 In the previous exercise you created Page Layouts to give the user a great experience logging the Salesforce request by only serving up relevant fields. In this exercise we want to map those Page Layouts to Record Types so that the user can select either User Requests or Feature Requests and see the correct Page Layout and Record Type. This will meet our business requirement by allowing us to report on User Requests versus Feature Requests.
