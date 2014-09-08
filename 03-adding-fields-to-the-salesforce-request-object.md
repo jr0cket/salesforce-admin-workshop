@@ -150,15 +150,15 @@ This field will help us inform management as to our resolutions for requests. An
 _This field will also have unique security around it in that only Admins can see it._
 
 1. For `Data Type`, select `Picklist (Multi-Select)` and click **Next**.
-2 . Fill in the field details:
+2. Fill in the field details:
   - Field Label: `Resolution`
   - Enter the following values for the picklist (one per line)
 
-     Training Issue
-     Management Guidance
-     Process Improvement
-     Data Issue
-     System Bug
+     Training Issue <br/>
+     Management Guidance <br/>
+     Process Improvement <br/>
+     Data Issue <br/>
+     System Bug <br/>>
 
   - Leave the Sort Values Alphabetically- Unchecked
   - Leave the Use first value as default value - Unchecked
