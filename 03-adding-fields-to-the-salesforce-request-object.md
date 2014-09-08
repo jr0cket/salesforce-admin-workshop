@@ -152,18 +152,13 @@ _This field will also have unique security around it in that only Admins can see
 1. For `Data Type`, select `Picklist (Multi-Select)` and click **Next**.
 2. Fill in the field details:
   - Field Label: `Resolution`
-  - Enter the following values for the picklist (one per line)
-  -- Training Issue
-  -- Management Guidance
-  -- Process Improvement
-  -- Data Issue
-  -- System Bug
+  - Enter the following values for the picklist (one per line) `Training Issue`, `Management Guidance`, `Process Improvement`, `Data Issue`, `System Bug`
 
-1. Leave the Sort Values Alphabetically- Unchecked
-1. Leave the Use first value as default value - Unchecked
-1. # Visible Lines: 4
-1. Field Name: Resolution
-1. Help Text: What were the solutions to this feature request?
+  - Leave the Sort Values Alphabetically- Unchecked
+  - Leave the Use first value as default value - Unchecked
+  - # Visible Lines: 4
+  - Field Name: Resolution
+  - Help Text: What were the solutions to this feature request?
 
 1. Click **Next**.
 
