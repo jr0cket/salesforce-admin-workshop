@@ -97,15 +97,7 @@ Create the Request Category field as follows:
 
 2. Fill in the custom field details:
   - Field Label: `Request Category`
-  - Enter the following values for the picklist (one per line)
-     User Activation
-     User Deactivation
-     General Customization
-     Reports & Dashboards
-     Duplicate Identified
-     Bug Fix
-     Change User Privileges
-     Other
+  - Enter the following values for the picklist (one per line) `User Activation`, `User Deactivation`, `General Customization`, `Reports & Dashboards`, `Duplicate Identified`, `Bug Fix`, `Change User Privileges`, `Other`
 
   - Leave the `Sort Values Alphabetically` - Unchecked
   - Leave the `Use first value as default value` - Unchecked
@@ -129,11 +121,7 @@ _This field will have unique security around it in that only Admins can see it._
 
 2. Fill in the custom field details:
   - Field Label: `Request Status`
-  - Enter the following values for the picklist (one per line)
-     Open
-     Working
-     Closed
-     Rejected
+  - Enter the following values for the picklist (one per line) `Open`, `Working`, `Closed`, `Rejected`
 3. Check the `Use first value` as default value
 
 4. Leave the defaults for the remaining fields, and click **Next**.
