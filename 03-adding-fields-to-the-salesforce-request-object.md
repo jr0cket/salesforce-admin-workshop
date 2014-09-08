@@ -153,11 +153,13 @@ _This field will also have unique security around it in that only Admins can see
 2 . Fill in the field details:
   - Field Label: `Resolution`
   - Enter the following values for the picklist (one per line)
+
      Training Issue
      Management Guidance
      Process Improvement
      Data Issue
      System Bug
+
   - Leave the Sort Values Alphabetically- Unchecked
   - Leave the Use first value as default value - Unchecked
   - # Visible Lines: 4
@@ -178,10 +180,14 @@ This field will help us track when the request was closed. It’s also important
 2. Fill in the field details:
   - Field Label: `Closed Date`
   - Field Name: `Closed_Date`
-  - Leave the defaults for the remaining fields, and click **Next**.
-  - Click the **Read-Only** checkbox at the top of the column to make this field read only for all users.
-  - Then **Uncheck** the box next to System Administrator, then click **Next**.
-  - Click **Save & New** to save the Closed Date field and return to the first step of the wizard.
+
+3. Leave the defaults for the remaining fields, and click **Next**.
+
+4. Click the **Read-Only** checkbox at the top of the column to make this field read only for all users.
+
+5. Then **Uncheck** the box next to System Administrator, then click **Next**.
+
+6. Click **Save & New** to save the Closed Date field and return to the first step of the wizard.
 
 
 ## Add a Formula Field to the Object
