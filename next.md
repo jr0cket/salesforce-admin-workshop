@@ -10,7 +10,7 @@ Here are a few things you can do next:
 
 - If you found this tutorial helpful, let other people know about it:
 
-    <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce-developer-workshop" data-text="Salesforce Developer Workshop: A new fast-track tutorial to #Salesforce development">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://jr0cket.github.io/salesforce-admin-workshop" data-text="Salesforce Admin Workshop: A new fast-track tutorial to #Salesforce Apps">Tweet</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 
